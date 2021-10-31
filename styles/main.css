@@ -1,0 +1,34 @@
+/*UNIVERSAL*/
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*HEADER STYLES*/
+
+header{
+    margin: 0.6250em auto;
+    width: 450px;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 60px;
+    border-bottom: 1px solid black;
+}
+
+/*CARD STYLES*/
+
+/*Removing top margin once I insert a search bar*/
+.card{
+    margin: 150px auto;
+}
+
+.card-body{
+    border: 2px solid black;
+}
+
+.card-title{
+    text-align: center;
+    font-weight: bold;
+}
