@@ -18,16 +18,21 @@
     <header>
         <h1>Worldwide Weather</h1>
     </header>
-    <main>
-       <div class="card" style="width: 20rem;">
-            <div class="card-body">
-              <h5 class="card-title">Weather for "City"</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Image</h6>
-              <p class="card-text">Temperature: </p>
-              <p class="card-text">Conditions: </p>
-              <p class="card-text">Humidity: </p>
-            </div>
-          </div> 
-    </main>
+    <div class="container">
+      <form class="form" method="get">
+        <input type="search" placeholder="Search City" class="search-bar">
+        <button type="submit" class="search-button">
+          <img src="images/search-icon.png">
+        </button>
+      </form>
+    </div>
+
+    <div class="card" style="width: 20rem;">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
 </body>
 </html>

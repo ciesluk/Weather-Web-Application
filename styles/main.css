@@ -4,6 +4,10 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+body{
+    background-color: lightblue;
+}
+
 /*HEADER STYLES*/
 
 header{
@@ -17,18 +21,43 @@ header h1{
     border-bottom: 1px solid black;
 }
 
-/*CARD STYLES*/
-
-/*Removing top margin once I insert a search bar*/
-.card{
-    margin: 150px auto;
+.container{
+    margin: 40px auto;
+    width: 500px;
 }
 
-.card-body{
-    border: 2px solid black;
+.form{
+    display: flex;
+    flex-direction: row;
+}
+
+.search-button img{
+    width: 20px;
+    height: 20px;
+}
+
+.search-bar{
+    width: 100%;
+    padding: 10px 35px 10px 35px;
+    border: none;
+    border-radius: 100px;
+    background-color: #F0F0F0;
+}
+
+.search-button{
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -40px;
+}
+
+.card{
+    margin: 100px auto;
 }
 
 .card-title{
     text-align: center;
     font-weight: bold;
 }
+
+
