@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: lightblue;
+    background-color: #1B1BB1;
 }
 
 /*HEADER STYLES*/
@@ -18,7 +18,8 @@ header{
 header h1{
     font-weight: bold;
     font-size: 60px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
+    color: white
 }
 
 .container{
@@ -53,11 +54,14 @@ header h1{
 
 .card{
     margin: 100px auto;
+    border-radius: 25px;
+    height: 250px;
 }
 
 .card-title{
     text-align: center;
     font-weight: bold;
+    font-size: 30px;
 }
 
 
