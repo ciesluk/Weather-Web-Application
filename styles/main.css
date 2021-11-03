@@ -8,6 +8,11 @@ body{
     background-color: #1B1BB1;
 }
 
+.container{
+    margin: 40px auto;
+    width: 500px;
+}
+
 /*HEADER STYLES*/
 
 header{
@@ -22,10 +27,7 @@ header h1{
     color: white
 }
 
-.container{
-    margin: 40px auto;
-    width: 500px;
-}
+/*Search bar and button styles*/
 
 .form{
     display: flex;
@@ -51,6 +53,8 @@ header h1{
     outline: none;
     margin-left: -40px;
 }
+
+/*Card Styles*/
 
 .card{
     margin: 100px auto;
