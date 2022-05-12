@@ -10,28 +10,29 @@
     <title>Worldwide Weather</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="styles/main.css" rel="stylesheet">
 </head>
 <body background="images/sky.jpeg">
     <header>
-        <h1>Worldwide Weather</h1>
+      <nav>
+        <h3>Worldwide Weather</h3>
+        <ul class="nav_links">
+          <li>About</li>
+          <li>Search</li>
+        </ul>
+        <button>Contact</button>
+      </nav>
     </header>
-    <div class="container">
-      <form class="form" method="get">
-        <input type="search" placeholder="Search City" class="search-bar">
-        <button type="submit" class="search-button">
-          <img src="images/search-icon.png">
-        </button>
-      </form>
-    </div>
 
-    <div class="card" style="width: 20rem;">
+    <div class="card" style="width: 40rem;">
       <div class="card-body">
-        <h5 class="card-title">Windsor</h5>
-        <h6 class="card-text">Temperature: </h6>
+        <h5 class="card-title">City Name</h5>
+        <img src="#" alt="" /> 
+        <p class="card-text">Temperature: </p>
         <p class="card-text">Condition: </p>
+        <p class="card-text">Humidity: </p>
       </div>
     </div>
 </body>
