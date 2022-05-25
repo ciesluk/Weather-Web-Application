@@ -71,10 +71,14 @@ button:hover{
 
 /*Card Styles*/
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
 .card{
-    margin: 100px auto;
-    border-radius: 25px;
-    height: 250px;
+    border-radius: 10px;
 }
 
 .card-title{
